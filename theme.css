@@ -858,12 +858,12 @@ thead {
 }
 
 .markdown-rendered thead th {
-  box-shadow: inset 0 0 5px var(--purple-pink);
-  text-shadow: 0 -1px 1px var(--purple-pink);
+  box-shadow: inset 0 0 5px var(--purple);
+  text-shadow: 0 -1px 1px var(--purple);
 }
 .markdown-rendered thead th:hover {
   box-shadow: inset 0 0 8px var(--purple);
-  color: var(--wyrd-purple);
+  color: var(--black);
   text-shadow: 0 0 0 transparent;
 }
 .markdown-rendered thead:hover {
@@ -877,19 +877,19 @@ thead {
   box-shadow: inset 0 0 8px var(--blue);
 }
 .markdown-rendered tbody tr:hover td:hover {
-  box-shadow: inset 0 0 8px var(--blue);
-  text-shadow: 0 -1px 1px var(--blue);
+  box-shadow: inset 0 0 8px var(--teal);
+  text-shadow: 0 -1px 1px var(--teal);
 }
 .markdown-rendered tbody tr:nth-child(odd) td {
   box-shadow: inset 0 0 5px var(--purple);
   text-shadow: 0 -1px 1px var(--purple);
 }
 .markdown-rendered tbody tr:nth-child(odd):hover td {
-  box-shadow: inset 0 0 8px var(--purple);
+  box-shadow: inset 0 0 8px var(--blue);
 }
 .markdown-rendered tbody tr:nth-child(odd):hover td:hover {
-  box-shadow: inset 0 0 8px var(--blue);
-  text-shadow: 0 -1px 1px var(--blue);
+  box-shadow: inset 0 0 8px var(--teal);
+  text-shadow: 0 -1px 1px var(--teal);
 }
 
 table {
