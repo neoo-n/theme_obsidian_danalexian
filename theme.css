@@ -396,31 +396,31 @@ body {
 }
 
 .nav-folder:not(.mod-root) {
-  box-shadow: inset 0 0 5px var(--blue);
+  box-shadow: inset 0 0 5px var(--purple-pink);
   padding-right: 4px;
 }
 .nav-folder:not(.mod-root):hover {
-  box-shadow: inset 0 0 8px var(--purple);
+  box-shadow: inset 0 0 8px var(--purple-pink);
 }
 
 .nav-file:hover {
   box-shadow: inset 0 0 8px var(--blue);
 }
 .nav-file .nav-file-title {
-  box-shadow: inset 0 0 5px var(--teal);
+  box-shadow: inset 0 0 5px var(--blue);
   margin-bottom: 0;
 }
 .nav-file .nav-file-title.is-active {
   box-shadow: inset 0 0 8px var(--teal);
   background-color: transparent;
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-file-title.is-active:hover,
 body:not(.is-grabbing) .nav-folder-title:hover {
   background-color: transparent;
-  color: var(--yellow);
+  color: var(--blue);
 }
 
 .nav-folder-title-content {
