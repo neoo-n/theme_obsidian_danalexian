@@ -251,7 +251,8 @@ body {
   --blue-secondary-tuple: var(--blue-hue), var(--secondary-sat), var(--secondary-lit);
 
   /* teal */
-    --teal: hsl(160, 100%, 36%);
+    --teal: hsl(170, 54%, 43%);
+	--tealSecondary: hsl(var(--teal), var(--secondary-sat), var(--secondary-lit));
 
   /* purple */
   --purple-tuple: var(--purple-hue), var(--primary-sat), var(--primary-lit);
@@ -326,8 +327,8 @@ body {
   --link-color-hover: var(--orangeSecondary);
   --link-unresolved-color: var(--yellow-700);
   --link-unresolved-hover: var(--yellow);
-  --link-external-color: var(--green);
-  --link-external-color-hover: var(--greenSecondary);
+  --link-external-color: var(--teal);
+  --link-external-color-hover: var(--teal);
   --table-header-color: var(--layer-2);
   --text-on-accent: var(--layer-2);
 
@@ -518,13 +519,13 @@ body.doc-title-rainbow .inline-title {
     var(--pink) 0,
     var(--orange) 8.33%,
     var(--yellow) 16.66%,
-    var(--green) 25%,
+    var(--teal) 25%,
     var(--blue) 33.33%,
     var(--purple) 41.66%,
     var(--pink) 50%,
     var(--orange) 58.33%,
     var(--yellow) 66.66%,
-    var(--green) 75%,
+    var(--teal) 75%,
     var(--blue) 83.33%,
     var(--purple) 91.66%,
     var(--pink) 100%
@@ -567,7 +568,7 @@ body.doc-title-h3 .inline-title {
   background-image: linear-gradient(
     var(--gradientDegree),
     var(--yellow) 0,
-    var(--green) 100%
+    var(--teal) 100%
   );
 } /*Source Mode*/
 
@@ -579,7 +580,7 @@ body.doc-title-h4 .inline-title {
   -webkit-background-clip: text;
   background-image: linear-gradient(
     var(--gradientDegree),
-    var(--green) 0,
+    var(--teal) 0,
     var(--blue) 100%
   );
 } /*Source Mode*/
@@ -938,7 +939,7 @@ section.footnotes li,
 }
 
 .graph-view.color-fill-attachment {
-  color: var(--green);
+  color: var(--teal);
 }
 
 .graph-view.color-arrow,
@@ -1024,7 +1025,7 @@ button.mod-warning {
 .cm-type,
 .cm-def,
 .cm-variable {
-  color: var(--green);
+  color: var(--teal);
 }
 
 .token.parameter {
@@ -1063,7 +1064,7 @@ ul ul ul ul li::marker,
 ol ol ol ol li::marker,
 .HyperMD-list-line-4 .list-bullet::after,
 .HyperMD-list-line.HyperMD-list-line-4 .cm-formatting-list {
-  color: var(--green);
+  color: var(--teal);
 }
 ul ul ul ul ul li::marker,
 ol ol ol ol ol li::marker,
@@ -1108,7 +1109,7 @@ ol ol ol ol ol ol ol li::marker,
   .has-list-bullet
   .has-list-bullet
   .list-bullet::after {
-  background-color: var(--green);
+  background-color: var(--teal);
 }
 
 .HyperMD-list-line-5 .list-bullet::after,
@@ -1182,7 +1183,7 @@ ul ul ul input[type="checkbox"],
 
 ul ul ul ul input[type="checkbox"],
 .HyperMD-list-line-4 input[type="checkbox"] {
-  border-color: var(--green);
+  border-color: var(--teal);
 }
 .HyperMD-list-line-4 input[type="checkbox"][data-task="x"],
 .has-list-bullet
@@ -1190,8 +1191,8 @@ ul ul ul ul input[type="checkbox"],
   .has-list-bullet
   .has-list-bullet.contains-task-list
   .task-list-item-checkbox:checked {
-  background-color: var(--green);
-  border-color: var(--green);
+  background-color: var(--teal);
+  border-color: var(--teal);
 }
 
 ul ul ul ul ul input[type="checkbox"],
@@ -1266,7 +1267,7 @@ ul ul ul ul ul ul ul input[type="checkbox"] {
 .markdown-source-view.mod-cm6 .cm-indent:nth-child(6n + 4):before,
 .markdown-rendered.show-indentation-guide li li li li ul::before,
 .markdown-rendered.show-indentation-guide li li li li ol::before {
-  border-color: var(--green);
+  border-color: var(--teal);
   opacity: var(--indentation-guide-opacity);
 }
 
@@ -1331,13 +1332,13 @@ what causes this? - .CodeMirror.cm-spell-error setting red a squiggly line as ba
   background-image: linear-gradient(
     var(--gradientDegree),
     var(--yellow) 0,
-    var(--green) 100%
+    var(--teal) 100%
   );
 }
 .cm-header-4.cm-spell-error {
   background-image: linear-gradient(
     var(--gradientDegree),
-    var(--green) 0,
+    var(--teal) 0,
     var(--blue) 100%
   );
 }
